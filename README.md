@@ -19,19 +19,19 @@ Number/Size of Images   : Total      : 9951 images
                           Pneumonia  : 1345 images
 
 <b>Model Parameters</b>
-Machine Learning Library: Keras
-Base Model              : Deep Convolutional Neural Network
-Optimizers              : Adam
+Machine Learning Library : Keras
+Base Model               : Deep Convolutional Neural Network
+Optimizers               : Adam
 
 <b>For Custom Deep Convolutional Neural Network : </b>
 <b>Training Parameters</b>
-Batch Size              : 64
-Number of Epochs        : 20
+Batch Size               : 64
+Number of Epochs         : 20
 
 <b>Output (Prediction/ Recognition / Classification Metrics)</b>
 <b>Testing</b>
-Accuracy (F-1) Score    : 95.9%
-Loss                    : 0.25
+Accuracy (F-1) Score     : 95.9%
+Loss                     : 0.25
 Precision  
   Precision (COVID)      : 96.4%
   Precision (Normal)     : 95.3%
