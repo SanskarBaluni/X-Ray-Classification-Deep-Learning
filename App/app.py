@@ -1,5 +1,9 @@
 import tensorflow as tf
 import streamlit as st
+from keras.models import load_model
+import cv2
+from PIL import Image, ImageOps
+import numpy as np
 
 # st.markdown("""
 #     <style>
@@ -15,7 +19,7 @@ st.cache_data()
 
 
 def load_model():
-    model = tf.keras.models.load_model('D:\X-Ray-Classification/CNN_Model.h5')
+    model = tf.keras.models.load_model('CNN_Model.h5')
     return model
 
 
@@ -42,9 +46,6 @@ st.markdown("<h1 style='text-align: center; color: white;'> X-RAY IMAGE CLASSIFI
 # st.markdown("<h1 style='text-align: center; color: white;'> X-RAY IMAGE CLASSIFICATION</h1>", unsafe_allow_html=True)
 
 file = st.file_uploader("Please upload an file", type=["jpg", "png"])
-import cv2
-from PIL import Image, ImageOps
-import numpy as np
 
 st.set_option('deprecation.showfileUploaderEncoding', False)
 
