@@ -1,5 +1,8 @@
 import tensorflow as tf
 import streamlit as st
+import cv2
+from PIL import Image, ImageOps
+import numpy as np
 
 # st.markdown("""
 #     <style>
@@ -42,9 +45,6 @@ st.markdown("<h1 style='text-align: center; color: white;'> X-RAY IMAGE CLASSIFI
 # st.markdown("<h1 style='text-align: center; color: white;'> X-RAY IMAGE CLASSIFICATION</h1>", unsafe_allow_html=True)
 
 file = st.file_uploader("Please upload an file", type=["jpg", "png"])
-import cv2
-from PIL import Image, ImageOps
-import numpy as np
 
 st.set_option('deprecation.showfileUploaderEncoding', False)
 
