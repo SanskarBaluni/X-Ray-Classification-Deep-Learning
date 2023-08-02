@@ -58,10 +58,16 @@ Recall
 <img src=https://github.com/SanskarBaluni/X-Ray-Classification-Deep-Learning/blob/main/Demo/Report/heatmp.png alt="Confusion Matrix" width=800px height=600px>
 </kbd>
 
+##### Test Report: 
+<kbd>
+<img src=https://github.com/SanskarBaluni/X-Ray-Classification-Deep-Learning/blob/main/Demo/images/test_report.png>
+</kbd>
 
 ##### Sample Output: 
 <kbd>
+ <p align="center"> 
 <img src=https://github.com/SanskarBaluni/X-Ray-Classification-Deep-Learning/blob/main/Demo/sample/sample.png>
+ </p>
 </kbd>
 
 #### Tools / Libraries
